@@ -85,12 +85,14 @@ analysis examples:
 
 ```{r,eval=FALSE}
 install.packages("rafalib")
+install.packages("downloader")
 ```
 
 We can then load the package into our R sessions using the `library` function:
 
 ```{r}
 library(rafalib)
+library(downloader)
 ```
 
 From now on you will see that we sometimes load packages without
