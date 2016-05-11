@@ -73,7 +73,7 @@ which(cars[,"dist"]==85)
 ## GETTING STARTED EXERCISES
 
 Here we will test some of the basics of R data manipulation. You will need to have the file femaleMiceWeights.csv in your working directory. As we showed above, one way to do this is by using the downloader package:
-  ```{r}
+```{r}
 library(downloader) ##use install.packages to install
 url <- "https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/femaleMiceWeights.csv"
 filename <- "femaleMiceWeights.csv" 
@@ -107,7 +107,7 @@ set.seed(1)
 dat[sample(13:24,1),'Bodyweight']
 ```
 
-### DPLR Exercises:
+## DPLR Exercises:
 
 ```{r, message=FALSE}
 library(dplyr)
