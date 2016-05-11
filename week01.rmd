@@ -1,8 +1,30 @@
 ---
-title: "Statistics and R - Week 1 exercise"
+title: "Statistics and R - Week 1"
 subtitle: "HarvardX PH525.1x: Data Analysis for Life Sciences 1"
 output: pdf_document
 ---
+# Course Materials
+
+## Textbook
+
+We will be using the textbook Data Analysis for the Life Science which is freely available [here](https://leanpub.com/dataanalysisforthelifesciences). The book is written in [R markdown](http://rmarkdown.rstudio.com/) which includes the R code used for several of the analysis shown in the course. The book includes links to the specific R markdown documents but you can access all of these in [this GitHub repository](https://github.com/genomicsclass/labs). We also provide an html version of the book [here](http://genomicsclass.github.io/book/).
+
+## R resources
+
+* [swirl](http://swirlstats.com/): learn R interactively from within the R console.
+* [R reference card](http://cran.r-project.org/doc/contrib/Short-refcard.pdf) (PDF) by Tom Short (more can be found under Short Documents and Reference Cards [here](http://cran.r-project.org/other-docs.html))
+* [Quick-R](http://www.statmethods.net/): quick online reference for data input, basic statistics and plots
+* Thomas Girke's [R & Bioconductor manuals](http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual)
+* [R programming](https://www.coursera.org/course/rprog) class on Coursera,  taught by Roger Peng, Jeff Leek and Brian Caffo
+* The free ["try R"](http://tryr.codeschool.com/) class from Code School is also a good place to start
+* [Data structures summary](http://adv-r.had.co.nz/Data-structures.html) by Hadley Whickham
+
+## R books
+
+_Software for Data Analysis_: Programming with R</u>(Statistics and Computing) by John M. Chambers (Springer)
+_S Programming_ (Statistics and Computing) by Brian D. Ripley and William N. Venables (Springer)
+_Programming with Data: A Guide to the S Language_ by John M. Chambers (Springer)
+
 # Introduction
   
 ## Getting Started
