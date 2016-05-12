@@ -31,7 +31,10 @@ We will be using the textbook Data Analysis for the Life Science which is freely
 
 Textbook code can be found [here](https://github.com/genomicsclass/labs/blob/master/intro/getting_started.Rmd) or downloaded:
 ```{r, eval=FALSE, tidy=TRUE}
-download("https://github.com/genomicsclass/labs/raw/master/intro/getting_started.Rmd","getting_started.Rmd")
+library(downloader)
+url="https://github.com/genomicsclass/labs/raw/master/intro/getting_started.Rmd"
+filename=basename(url)
+download(url,filename)
 ```
 
 ## RUN SWIRL EXERCISES
@@ -119,14 +122,17 @@ set.seed(1)
 dat[sample(13:24,1),'Bodyweight']
 ```
 
-# Introduction to dplyr
+# Introduction to `dplyr`
 
 Textbook code can be found [here](https://github.com/genomicsclass/labs/blob/master/intro/dplyr_intro.Rmd) or downloaded:
 ```{r, eval=FALSE, tidy=TRUE}
-download("https://github.com/genomicsclass/labs/raw/master/intro/dplyr_intro.Rmd","dplyr_intro.Rmd")
+library(downloader)
+url="https://github.com/genomicsclass/labs/raw/master/intro/dplyr_intro.Rmd","dplyr_intro.Rmd"
+filename=basename(url)
+download(url,filename)
 ```
 
-## DPLYR EXERCISES:
+## `dplyr` EXERCISES:
 
 ```{r, message=FALSE}
 #install.packages(dplyr)
@@ -135,14 +141,15 @@ library(dplyr)
 
 ### Data: Mammals Sleep
 
-The msleep (mammals sleep) data set contains the sleep times and weights for a set of mammals and is available in the dagdata repository on github. This data set contains 83 rows and 11 variables.  
+For these exercises, we will use a new dataset related to mammalian sleep. [This link describes the data](http://docs.ggplot2.org/0.9.3.1/msleep.html).
+The `msleep` (mammals sleep) data set contains the sleep times and weights for a set of mammals and is available in the dagdata repository on github. This data set contains 83 rows and 11 variables.  
 
 Download the msleep data set in CSV format from [here](https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/msleep_ggplot2.csv), and then load into R:
   
 ```{r, tidy=TRUE}
 library(downloader)
-url <- "https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/msleep_ggplot2.csv"
-filename <- "msleep_ggplot2.csv"
+url="https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/msleep_ggplot2.csv"
+filename=basename(url)
 if (!file.exists(filename)) download(url,filename)
 ```
 
