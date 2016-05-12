@@ -58,11 +58,3 @@ To do this in R without `dplyr` the code is the following:
 ```{r}
 chowVals <- dat[ dat$Diet=="chow", colnames(dat)=="Bodyweight"]
 ```
-
-
-
-
-
-
-
-
