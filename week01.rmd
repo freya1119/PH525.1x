@@ -28,7 +28,12 @@ _Programming with Data: A Guide to the S Language_ by John M. Chambers (Springer
 # Week 1
 
 ## Getting Started
-  
+
+Textbook code can be found [here](https://github.com/genomicsclass/labs/raw/master/intro/getting_started.Rmd) or download:
+```{r, eval=FALSE}
+download("https://github.com/genomicsclass/labs/raw/master/intro/getting_started.Rmd","getting_started.Rmd")
+```
+
 ### RUN SWIRL EXERCISES
   
 Go through the R Programming Basic Building Blocks tutorial and then answer the following questions.
@@ -113,12 +118,14 @@ set.seed(1)
 dat[sample(13:24,1),'Bodyweight']
 ```
 
-## DPLR Exercises:
+## Introduction to 'dplyr'
 
 Textbook code can be found [here](https://github.com/genomicsclass/labs/raw/master/intro/dplyr_intro.Rmd) or download:
 ```{r, eval=FALSE}
 download("https://github.com/genomicsclass/labs/raw/master/intro/dplyr_intro.Rmd","dplyr_intro.Rmd")
 ```
+
+## 'dplyr' Exercises:
 
 ```{r, message=FALSE}
 #install.packages(dplyr)
