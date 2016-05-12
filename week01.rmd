@@ -115,14 +115,13 @@ dat[sample(13:24,1),'Bodyweight']
 
 ## DPLR Exercises:
 
-Textbook code can be found [here](https://github.com/genomicsclass/labs/raw/master/intro/dplyr_intro.Rmd) or downloaded:
+Textbook code can be found [here](https://github.com/genomicsclass/labs/raw/master/intro/dplyr_intro.Rmd) or download:
 ```{r, eval=FALSE}
-
 download("https://github.com/genomicsclass/labs/raw/master/intro/dplyr_intro.Rmd","dplyr_intro.Rmd")
-
 ```
 
 ```{r, message=FALSE}
+#install.packages(dplyr)
 library(dplyr)
 ```
 
