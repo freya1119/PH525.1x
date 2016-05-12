@@ -13,6 +13,16 @@ filename=basename(url)
 download(url,filename)
 ```
 
-
-
 # Week 2
+
+# Inference, Random Variables, & Probability Distributions
+
+Textbook code can be found [here](https://github.com/genomicsclass/labs/blob/master/inference/random_variables.Rmd) or downloaded:
+```{r, eval=FALSE, tidy=TRUE}
+library(downloader)
+url="https://github.com/genomicsclass/labs/raw/master/inference/random_variables.Rmd"
+filename=basename(url)
+download(url,filename)
+```
+
+# Central Limit Theorem
