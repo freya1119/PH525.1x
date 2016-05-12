@@ -1,0 +1,18 @@
+---
+title: "Statistics and R - Week 2"
+subtitle: "HarvardX PH525.1x: Data Analysis for Life Sciences 1"
+output: pdf_document
+---
+# Mathematical notation
+
+Textbook code can be found [here](https://github.com/genomicsclass/labs/blob/master/intro/math_notation.Rmd) or downloaded:
+```{r, eval=FALSE, tidy=TRUE}
+library(downloader)
+url="https://github.com/genomicsclass/labs/raw/master/intro/math_notation.Rmd"
+filename=basename(url)
+download(url,filename)
+```
+
+
+
+# Week 2
