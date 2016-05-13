@@ -25,4 +25,27 @@ filename=basename(url)
 download(url,filename)
 ```
 
+## Random Variables
+
+```{r, echo=FALSE}
+library(downloader)
+dir <- "https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/"
+filename <- "femaleControlsPopulation.csv"
+url <- paste0(dir, filename)
+##check if file exists and if it does not, download it:
+if (!file.exists(filename)) download(url,destfile=filename)
+```
+
+```{r}
+population <- read.csv("femaleControlsPopulation.csv")
+##use unlist to turn it into a numeric vector
+population <- unlist(population) 
+```
+
+## The Null Hypothesis & Null Distribution
+
+
+
+
+
 # Central Limit Theorem
